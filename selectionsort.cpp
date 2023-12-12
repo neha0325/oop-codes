@@ -6,9 +6,9 @@ void sort(T a[10] , int n)
 {
     int i,j;
     T temp;
-    for ( i = 0; i < n; i++)
+    for ( i = 0; i < n-1; i++)
     {
-        for ( j = i; j < n-1; j++)
+        for ( j = i+1; j < n; j++)
         {
             if (a[i]>a[j])
             {
